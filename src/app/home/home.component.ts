@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  homeDetails = "Practice, more more more more practice"
+  inputText = "write here"
   counter = 0;
 
   clicker = (counter) => {
